@@ -14,10 +14,10 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	waBinary "go.mau.fi/whatsmeow/binary"
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/types/events"
+	waBinary "github.com/mohammadssalari/whatsmeow/binary"
+	waProto "github.com/mohammadssalari/whatsmeow/binary/proto"
+	"github.com/mohammadssalari/whatsmeow/types"
+	"github.com/mohammadssalari/whatsmeow/types/events"
 )
 
 const BusinessMessageLinkPrefix = "https://wa.me/message/"

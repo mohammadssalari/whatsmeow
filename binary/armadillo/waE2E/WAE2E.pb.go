@@ -7,9 +7,9 @@
 package waE2E
 
 import (
-	waAdv "go.mau.fi/whatsmeow/binary/armadillo/waAdv"
-	waCommon "go.mau.fi/whatsmeow/binary/armadillo/waCommon"
-	waMmsRetry "go.mau.fi/whatsmeow/binary/armadillo/waMmsRetry"
+	waAdv "github.com/mohammadssalari/whatsmeow/binary/armadillo/waAdv"
+	waCommon "github.com/mohammadssalari/whatsmeow/binary/armadillo/waCommon"
+	waMmsRetry "github.com/mohammadssalari/whatsmeow/binary/armadillo/waMmsRetry"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

@@ -1,4 +1,4 @@
-module go.mau.fi/whatsmeow/mdtest
+module github.com/mohammadssalari/whatsmeow/mdtest
 
 go 1.21
 
@@ -7,7 +7,7 @@ toolchain go1.22.0
 require (
 	github.com/mattn/go-sqlite3 v1.14.22
 	github.com/mdp/qrterminal/v3 v3.0.0
-	go.mau.fi/whatsmeow v0.0.0-20230805111647-405414b9b5c0
+	github.com/mohammadssalari/whatsmeow v0.0.0-20230805111647-405414b9b5c0
 	google.golang.org/protobuf v1.32.0
 )
 
@@ -25,4 +25,4 @@ require (
 	rsc.io/qr v0.2.0 // indirect
 )
 
-replace go.mau.fi/whatsmeow => ../
+replace github.com/mohammadssalari/whatsmeow => ../

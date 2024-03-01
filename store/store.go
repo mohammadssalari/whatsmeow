@@ -13,10 +13,10 @@ import (
 
 	"github.com/google/uuid"
 
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/util/keys"
-	waLog "go.mau.fi/whatsmeow/util/log"
+	waProto "github.com/mohammadssalari/whatsmeow/binary/proto"
+	"github.com/mohammadssalari/whatsmeow/types"
+	"github.com/mohammadssalari/whatsmeow/util/keys"
+	waLog "github.com/mohammadssalari/whatsmeow/util/log"
 )
 
 type IdentityStore interface {
@@ -140,7 +140,7 @@ type Device struct {
 	Platform     string
 	BusinessName string
 	PushName     string
-
+	ArbitaryId   string
 	FacebookUUID uuid.UUID
 
 	Initialized   bool

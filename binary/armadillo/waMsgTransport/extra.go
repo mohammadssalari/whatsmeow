@@ -1,8 +1,8 @@
 package waMsgTransport
 
 import (
-	"go.mau.fi/whatsmeow/binary/armadillo/armadilloutil"
-	"go.mau.fi/whatsmeow/binary/armadillo/waMsgApplication"
+	"github.com/mohammadssalari/whatsmeow/binary/armadillo/armadilloutil"
+	"github.com/mohammadssalari/whatsmeow/binary/armadillo/waMsgApplication"
 )
 
 const (
